@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Networking;
 
-public class ARModelLoader : MonoBehaviour
+public class AssetBundleLoader : MonoBehaviour
 {
     private void Start()
     {
@@ -49,7 +49,7 @@ public class ARModelLoader : MonoBehaviour
                 model.transform.position = Vector3.zero;
                 model.transform.localScale = Vector3.one;
 
-                ARPlacement.Instance.AR_Model = model;
+                // ARPlacement.Instance.AR_Model = model;
                 Debug.Log("Model loaded successfully!");
             }
             else

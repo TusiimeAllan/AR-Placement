@@ -29,10 +29,9 @@ public class ARRaycastPlace : MonoBehaviour
                 {
                     Pose hitPose = hits[0].pose;
                     if(placedObject == null) {
-                        placedObject = Instantiate(objectToPlace, hitPose.position, hitPose.rotation);
+                        placedObject = Instantiate(objectToPlace, hitPose.position, objectToPlace.transform.rotation);
                     } else {
                         placedObject.transform.position = hitPose.position;
-                        placedObject.transform.rotation = hitPose.rotation;
                     }
                     
                 }

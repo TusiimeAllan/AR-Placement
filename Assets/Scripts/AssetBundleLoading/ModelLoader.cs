@@ -11,7 +11,7 @@ public class ModelLoader : MonoBehaviour
     public Transform gridParent; // Parent transform for the list items
     public GameObject modelPrefab; // Prefab for each UI item
 
-    void Start()
+    private void Start()
     {
         StartCoroutine(LoadModelList());
     }
