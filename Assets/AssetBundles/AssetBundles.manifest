@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3947606362
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: ardebugmenu
+      Dependencies: {}
+    Info_1:
+      Name: car
+      Dependencies: {}
+    Info_2:
+      Name: scifi
+      Dependencies: {}
+    Info_3:
+      Name: house
+      Dependencies: {}
